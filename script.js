@@ -36,7 +36,7 @@ window.setTimeout(function() {
     var spinner = document.getElementsByClassName('spinner')[0];
     document.getElementsByTagName('body')[0].removeChild(spinner);
     $(".body").addClass('show');
-}, 30);
+}, 3000);
 
 $(document).ready(function() {
     $('.parallax').parallax();
